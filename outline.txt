@@ -20,4 +20,7 @@ keyword to tag map csv format
 keyword, html tag, styling(optional):
 h1,h1,none
 
-cmd: python parser.py inputFileName outputFileName classMapFileName
+cmd: 
+python parser.py inputFileName - generates output file with same name as input, no custom classes
+python parser.py inputFileName outputFileName - generates output file with provided name from input, no custom classes
+python parser.py inputFileName outputFileName classMapFileName - generates output file with provided name from input, pulling classes and stylings from given class map csv
