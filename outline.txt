@@ -1,0 +1,16 @@
+idea: simple parser to generate html 
+
+simple keywords:
+// keyword text .... => <keyword> text .... </keyword>
+
+complex keywords:
+/* keyword text ....
+more text ....
+final text */
+
+=> 
+<keyword> text ....
+more text ....
+final text </keyword>
+
+more to be added?
