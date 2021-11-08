@@ -13,14 +13,17 @@ final text */
 more text ....
 final text </keyword>
 
-more to be added?
-
-keyword to tag map csv format
-
-keyword, html tag, styling(optional):
-h1,h1,none
-
 cmd: 
 python parser.py inputFileName - generates output file with same name as input, no custom classes
 python parser.py inputFileName outputFileName - generates output file with provided name from input, no custom classes
 python parser.py inputFileName outputFileName classMapFileName - generates output file with provided name from input, pulling classes and stylings from given class map csv
+
+tags:
+html standard tags found in resources/tags/tags.csv
+tags in one large csv row: h1,h2,...
+tag formatting WIP, probably similar to class defintion loading
+
+classes:
+html class definitions in csv row: [classname,styling]
+class definitions found in resources/classes/[filename.csv]
+passed as final argument in cmd statement
