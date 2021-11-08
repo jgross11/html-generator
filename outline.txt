@@ -14,3 +14,10 @@ more text ....
 final text </keyword>
 
 more to be added?
+
+keyword to tag map csv format
+
+keyword, html tag, styling(optional):
+h1,h1,none
+
+cmd: python parser.py inputFileName outputFileName classMapFileName
