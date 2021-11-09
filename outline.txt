@@ -13,6 +13,9 @@ final text */
 more text ....
 final text </keyword>
 
+applying class styling to tag:
+// tagName#className text ... => <tagName class=className> text ... </tagName>
+
 cmd: 
 python parser.py inputFileName - generates output file with same name as input, no custom classes
 python parser.py inputFileName outputFileName - generates output file with provided name from input, no custom classes
